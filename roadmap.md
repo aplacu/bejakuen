@@ -8,7 +8,7 @@ Bejakeun is the brand for an AI sales workforce platform. The first product is B
 - [x] Redesign landing page, product narrative, and visual system.
 - [x] Add interactive concept views for sales agent, pipeline, and revenue insights.
 - [x] Clarify that the demo is fictional and not connected to live systems.
-- [ ] Run automated test, build, and lint checks on the rebuilt experience.
+- [x] Run automated test, build, and lint checks on the rebuilt experience.
 
 ## Phase 1: Validate the wedge
 - [ ] Interview 20 businesses across no more than two initial verticals.
