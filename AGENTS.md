@@ -1,15 +1,8 @@
-<!-- LOVABLE:BEGIN -->
-> [!IMPORTANT]
-> This project is connected to [Lovable](https://lovable.dev). Avoid rewriting
-> published git history — force pushing, or rebasing/amending/squashing commits
-> that are already pushed — as it rewrites history on Lovable's side and the
-> user will likely lose their project history.
->
-> Commits you push to the connected branch sync back to Lovable and show up in
-> the editor, so keep the branch in a working state.
-<!-- LOVABLE:END -->
-
 ## Application rules
-- Keep bejakeun's landing page at the index route and its interactive simulation in a separate browser-safe component, so marketing and demo state remain independent.
-- Simulation data lives only in React state and resets on reload; it must never send messages or make AI/API calls, keeping the prototype lightweight and honest.
-- Define visual roles in the global CSS and use shared Button variants for actions, keeping brand styling consistent.
+- Bejakeun is the umbrella brand for an AI sales workforce platform; the first product direction is Bejakeun Sales Agent. Do not position the company as a property-only product.
+- Keep the landing page at the index route and the interactive concept demo in a browser-safe component or the route itself.
+- Demo interactions must remain local and use fictional data. Never send messages or make AI/API calls from the marketing demo.
+- Be explicit about product maturity. Do not imply production AI, live integrations, customer results, or measured conversion lifts until implemented and verified.
+- Use approved business knowledge, human handoff, and authorization boundaries as core product principles.
+- Define visual roles in global CSS and preserve responsive layouts and keyboard-accessible interactions.
+- Run tests, build, and lint checks before considering a large UI change complete.
