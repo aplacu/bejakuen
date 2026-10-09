@@ -1,23 +1,30 @@
 # bejakeun
 
-Aplikasi web bejakeun, dibangun dengan React, TypeScript, TanStack Start, Vite, dan Tailwind CSS.
+Website bejakeun untuk membantu usaha merapikan pencatatan prospek dan tindak lanjut pelanggan. Kode aplikasi berada langsung di repository ini.
 
-## Menjalankan secara lokal
+## Teknologi
+- React + TypeScript
+- TanStack Start dan TanStack Router
+- Vite
+- Tailwind CSS
 
-Prasyarat: Node.js atau Bun.
+## Jalankan secara lokal
+Prasyarat: Bun atau Node.js yang kompatibel dengan Vite.
 
 ```bash
 bun install
 bun run dev
 ```
 
-Skrip tersedia: `dev`, `build`, `lint`, dan `test`.
+## Pemeriksaan
+```bash
+bun run test
+bun run build
+bun run lint
+```
 
-## Struktur utama
+## Routing
+- `/`: halaman utama bejakeun
+- Anchor halaman: `#cara-kerja`, `#simulasi`, `#pilot`, `#faq`, dan `#minat`.
 
-- `src/routes/index.tsx`: halaman utama
-- `src/components/lead-simulation.tsx`: komponen simulasi
-- `src/styles.css`: gaya global
-- `src/components/ui/`: komponen UI
-
-Kode aplikasi berada langsung di repository ini. Repository ini tidak sekadar mengalihkan pengunjung ke situs Lovable.
+Route utama ada di `src/routes/index.tsx`; root layout dan metadata global berada di `src/routes/__root.tsx`.

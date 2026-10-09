@@ -18,7 +18,7 @@ export const Route = createFileRoute('/')({
 });
 const inquiry = 'Halo, saya tertarik dengan Program Pilot bejakeun (Rp299.000 untuk setup + pendampingan 7 hari). Usaha saya bergerak di [jenis usaha]. Saat ini calon pelanggan masuk melalui [kanal komunikasi]. Saya ingin mendiskusikan kecocokan, ruang lingkup, dan hasil kerja yang disepakati sebelum pembayaran.';
 function Brand() {
-  return <span className="wordmark"><svg className="brand-symbol" viewBox="0 0 32 34" fill="none" aria-hidden="true"><path d="M8 5v23" stroke="currentColor" strokeWidth="3" strokeLinecap="round" /><path d="M8 20a9 9 0 1 1 0 1" stroke="currentColor" strokeWidth="3" strokeLinecap="round" /></svg>bejakeun<span className="self-start pt-1 text-[8px] font-medium text-muted-foreground">PROJECT</span></span>;
+  return <span className="wordmark"><svg className="brand-symbol" viewBox="0 0 32 34" fill="none" aria-hidden="true"><path d="M8 5v23" stroke="currentColor" strokeWidth="3" strokeLinecap="round" /><path d="M8 20a9 9 0 1 1 0 1" stroke="currentColor" strokeWidth="3" strokeLinecap="round" /></svg>bejakeun</span>;
 }
 function Index() {
   const [menuOpen, setMenuOpen] = useState(false);
