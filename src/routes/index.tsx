@@ -2,7 +2,7 @@ import { createFileRoute } from '@tanstack/react-router';
 import { useState } from 'react';
 import {
   ArrowDownRight, ArrowRight, ArrowUpRight, Bot, Check, ChevronDown,
-  CircleHelp, Command, Gauge, Headset, Layers3, Menu, MessageCircle,
+  CircleHelp, Gauge, Headset, Layers3, Menu, MessageCircle,
   MessagesSquare, Play, ShieldCheck, Sparkles, Target, TrendingUp, Users,
   Workflow, X, Zap,
 } from 'lucide-react';
