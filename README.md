@@ -17,6 +17,7 @@ The brand is designed to support multiple industries. The first product directio
 ## Current website
 
 The landing page includes:
+
 - AI sales workforce positioning and product narrative.
 - Interactive concept demo with agent, pipeline, and revenue-insight views.
 - Workflow overview, industry examples, automation guardrails, and FAQ.
